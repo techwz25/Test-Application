@@ -1,6 +1,11 @@
  body{
     background-color: rgb(180, 180, 202);
  } 
+
  p{ 
-    padding: 25px;
+    padding: 25px;color: rgb(14, 14, 26);
+ }  
+
+ h1{ 
+    color: rgb(16, 16, 219);
  }
