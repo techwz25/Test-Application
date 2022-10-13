@@ -3,9 +3,34 @@
  } 
 
  p{ 
-    padding: 25px;color: rgb(14, 14, 26);
+    padding:25px;color: rgb(14, 14, 26);
  }  
 
  h1{ 
-    color: rgb(16, 16, 219);
+    color:rgb(16, 16, 219);
+ } 
+
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background-color: grey;
+   overflow: hidden;
+ }
+
+   /* 
+    Building a horizontal list 
+   */
+
+ li a {                
+   display: inline; 
+   float : left;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ } 
+
+ li a:hover {
+   background-color: rgb(180, 180, 202);
  }
