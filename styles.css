@@ -28,7 +28,7 @@
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
-  color: rgb(35, 61, 94) !important;
+  color: rgb(35, 158, 45) !important;
 } 
 
 p{ 
@@ -59,8 +59,10 @@ p{
  } 
 
  .logo {
-   font-size: 200px;
-   color: green;
+   font-size: 100px;
+   background-image: url("/images/mylogo.jpg");
+   width: 100;
+
  } 
 
  @media screen and (max-width: 768px) {
